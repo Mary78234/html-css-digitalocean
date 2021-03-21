@@ -26,14 +26,16 @@
       <div class="container">
         <div class="row">
 
-          <div class="col-xs-6 col-lg-3 debug">Logo</div>
+          <div class="col-xs-6 col-lg-3 debug">
+            <img class="img-responsive" src="img/logo.png" alt="">
+          </div>
 
           <!-- col menu -->
           <div class="col-xs-6 col-lg-9 debug">
 
             <!-- menu hamburger -->
-            <div class="hidden-lg">
-              Hamburger
+            <div class="hidden-lg text-right">
+              <span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
             </div>
             <!-- /menu hamburger -->
 
@@ -41,11 +43,21 @@
             <div class="row visible-lg">
 
               <div class="col-lg-6 debug">
-                lista
+                <ul class="list-unstyled list-inline">
+                  <li><a href="#">Products</a></li>
+                  <li><a href="#">Customers</a></li>
+                  <li><a href="#">Community</a></li>
+                  <li><a href="#">Pricing</a></li>
+                </ul>
               </div>
 
               <div class="col-lg-6 text-right debug">
-                lista
+                <ul class="list-unstyledd list-inline">
+                  <li><a href="#">Docs</a></li>
+                  <li><a href="#">Support</a></li>
+                  <li><a href="#">Login</a></li>
+                  <li><a class="btn" href="#">Sign Up</a></li>
+                </ul>
               </div>
 
             </div>
@@ -66,13 +78,24 @@
 
           <!-- jumbotron box -->
           <div class="col-xs-12 col-md-7 debug">
-            text
+            <div class="qw-box-jumbotron">
+              <h1>The simplest cloud platform for developers & teams</h1>
+              <p>Deploy, manage, and scale cloud applications faster and more efficiently on DigitalOcean. We make managing infrastracture easy for teams and businesses, whether you're running one virtual machine or ten thousand.</p>
+            </div>
           </div>
           <!-- /jumbotron box -->
 
           <!-- jumbotron sign-in -->
           <div class="col-xs-12 col-md-5 debug">
-            box sign-in 
+            <div class="qw-box-sign-in text-center">
+              <h2>Deploy your app in seconds.</h2>
+              <h2>Get started now.</h2>
+              <input type="email" placeholder="Email">
+              <input type="password" placeholder="Password">
+              <button class="btn">Create your account</button>
+              <button class="btn btn-default">Sign up with google</button>
+              <p>By signing up you agree to the <a href="#">Terms of Service</a>.</p>
+            </div> 
           </div>
           <!-- jumbotron sign-in -->
 
@@ -92,24 +115,41 @@
       <div class="container">
         
         <div class="row debug">
-          <div class="col-xs-12 text-center">Innovative</div>
+          <div class="col-xs-12 text-center text-uppercase">Innovative businesses trust digitalocean</div>
         </div>
 
         <!-- logo customers -->
         <div class="row qw-margin-20 debug">
 
-          <div class="col-xs-6 col-md-2 debug">loghi</div>
-          <div class="col-xs-6 col-md-2 debug">loghi</div>
-          <div class="col-xs-6 col-md-2 debug">loghi</div>
-          <div class="col-xs-6 col-md-2 debug">loghi</div>
-          <div class="col-xs-6 col-md-2 debug">loghi</div>
-          <div class="col-xs-6 col-md-2 debug">loghi</div>
+          <div class="col-xs-6 col-md-2 text-center debug">
+            <img class="img-responsive" src="img/docker.svg" alt="docker">
+          </div>
+            
+          <div class="col-xs-6 col-md-2 debug">
+            <img class="img-responsive" src="img/gitlab.svg" alt="gitlab">
+          </div>
+
+          <div class="col-xs-6 col-md-2 debug">
+            <img class="img-responsive" src="img//slack.svg" alt="slack">
+          </div>
+
+          <div class="col-xs-6 col-md-2 debug">
+            <img class="img-responsive" src="img/hashicorp.svg" alt="hashicorp">
+          </div>
+
+          <div class="col-xs-6 col-md-2 debug">
+            <img class="img-responsive" src="img/hashicorp.svg" alt="docker">
+          </div>
+
+          <div class="col-xs-6 col-md-2 debug">
+            <img class="img-responsive" src="img/splunk.svg" alt="splunk">
+          </div>
           
         </div>
         <!-- /logo customers -->
 
         <div class="row debug">
-          <div class="col-xs-12 text-center"><a href="#">View</a></div>
+          <div class="col-xs-12 text-center"><a href="#">View customers stories </a></div>
         </div>
 
       </div>
@@ -121,16 +161,50 @@
       <div class="container">
 
         <div class="row debug">
-          <div class="col-xs-12">lorem</div>
+          <div class="col-xs-12 text-center">
+            <h3>Deploy and scale seamlessly</h3>
+            <p>Our optimized configuration process saves your team time when running and scaling distributed applications, AI & machine learning workloads, hosted services, client websites, or CI/CD environments.</p>
+          </div>
         </div>
 
+        <!-- row 5 elements of section deploy -->
         <div class="row debug">
-          <div class="col-xs-12 col-md-4 debug">1 lorem lungo<br>lorem<br>lorem<br></div>
-          <div class="col-xs-12 col-md-4 debug">2 lorem</div>
-          <div class="col-xs-12 col-md-4 debug">3 lorem</div>
-          <div class="col-xs-12 col-md-4 debug">4 lorem</div>
-          <div class="col-xs-12 col-md-4 debug">5 lorem</div>
+          <div class="col-xs-12 col-md-4 debug">
+            <ul class="list-unstyled">
+              <li>Deploy</li>
+              <li>Manage</li>
+              <li>Secure</li>
+              <li>Scale</li>
+              <li>Monitor</li>
+            </ul>
+          </div>
+
+          <div class="col-xs-12 col-md-4 debug">
+            <img class="img-responsive" src="img/cluster-deploy.svg" alt="cluster deploy">
+            <h4>Cluster deployments</h4>
+            <p>Provision multiple Droplets (virtual machines) in seconds with our control panel, CLI, or directly against our API.</p>
+          </div>
+
+          <div class="col-xs-12 col-md-4 debug">
+            <img class="img-responsive" src="img/optimized-compute.svg" alt="optimezed compute">
+            <h4>Optimized compute types</h4>
+            <p>Get the compute resources you need with Standard or Optimized Droplets.</p>
+          </div>
+
+          <div class="col-xs-12 col-md-4 debug">
+            <img class="img-responsive" src="img/one-click.svg" alt="one click">
+            <h4>One-click apps</h4>
+            <p>Skip the install and configuratin process with pre-built open source images supporting Rails, Cassandra, Docker, and more.</p>
+          </div>
+
+          <div class="col-xs-12 col-md-4 debug">
+            <img class="img-responsive" src="img/global.svg" alt="global">
+            <h4>Global availability</h4>
+            <p>Deploy to any of our data center regions around the world.</p>
+          </div>
+
         </div>
+        <!-- /row 5 elements of section deploy -->
 
       </div>
     </section>
@@ -141,11 +215,16 @@
       <div class="container">
 
         <div class="row qw-margin-20 debug">
-          <div class="col-xs-12">lorem</div>
+          <div class="col-xs-12 text-center">
+            <h2>Designed for developers</h2>
+            <p>Buld more and spend less time managing your infrastructure with our easy-to-use control panel and API.</p>
+          </div>
         </div>
 
         <div class="row debug">
-          <div class="col-xs-10 col-xs-offset-1 debug">blocco img</div>
+          <div class="col-xs-10 col-xs-offset-1 debug">
+            <img src="#" alt="">image
+          </div>
         </div>
 
       </div>
@@ -157,13 +236,32 @@
       <div class="container">
 
         <div class="row debug">
-          <div class="col-xs-12 text-center">lorem</div>
+          <div class="col-xs-12 text-center">
+            <h2>The features your business needs</h2>
+          </div>
         </div>
 
         <div class="row debug">
-          <div class="col-xs-12 col-md-4 debug">lorem</div>
-          <div class="col-xs-12 col-md-4 debug">lorem</div>
-          <div class="col-xs-12 col-md-4 debug">lorem</div>
+          <div class="col-xs-12 col-md-4 debug">
+            <img  class="img-responsive" src="img/pred-pricing.svg" alt="sheet">
+            <h4>Predictable pricing</h4>
+            <p>Leave complex pricing structures behind. Always know what you'll pay per month with a flat, industry-leading pricing structure.</p>
+            <a href="#">Pricing</a>
+          </div>
+
+          <div class="col-xs-12 col-md-4 debug">
+            <img  class="img-responsive" src="img/world-class.svg" alt="service">
+            <h4>World-class service</h4>
+            <p>Free round-the-clock technical support for all customers. You'll feel the love.</p>
+            <a href="#">Support</a>
+          </div>
+
+          <div class="col-xs-12 col-md-4 debug">
+            <img  class="img-responsive" src="img/reliable-platform.svg" alt="reliable">
+            <h4>Reliable platform</h4>
+            <p>More than 100,000 developer teams worldwide trust DigitalOcean to support their business with a 99.99% uptime SLA for all services.</p>
+            <a href="#">Security</a>
+          </div>
         </div>
 
       </div>
@@ -175,12 +273,83 @@
       <div class="container">
 
         <div class="row debug">
-          <div class="col-xs-12 text-center">lorem</div>
+          <div class="col-xs-12 text-center">
+            <h2>Service your customers around the world from 12 regins.</h2>
+          </div>
         </div>
         
         <div class="row">
-          <div class="col-xs-12 col-lg-6 debug">lorem</div>
-          <div class="col-xs-12 col-lg-6 debug">lorem</div>
+
+          <div class="col-xs-12 col-lg-6 debug">
+            <table>
+              <tr>
+                <td>AMS2</td>
+                <td>Amsterdam, Netherlands</td>
+                <td><a href="#">Test speed &rsaquo; > </a></td>
+              </tr>
+              <tr>
+                <td>AMS3</td>
+                <td>Amsterdam, Netherlands</td>
+                <td><a href="#">Test speed</a></td>
+              </tr>
+              <tr>
+                <td>BLR1</td>
+                <td>Bangalore, India</td>
+                <td><a href="#">Test speed</a></td>
+              </tr>
+              <tr>
+                <td>FRA1</td>
+                <td>Frankfurt, German</td>
+                <td><a href="#">Test speed</a></td>
+              </tr>
+              <tr>
+                <td>LON1</td>
+                <td>London, UK</td>
+                <td><a href="#">Test speed</a></td>
+              </tr>
+              <tr>
+                <td>NYC1</td>
+                <td>New York, USA</td>
+                <td><a href="#">Test speed</a></td>
+              </tr>
+            </table>
+          </div>
+
+          <div class="col-xs-12 col-lg-6 debug">
+            <table>
+              <tr>
+                <td>AMS2</td>
+                <td>Amsterdam, Netherlands</td>
+                <td><a href="#">Test speed &rsaquo; > </a></td>
+              </tr>
+              <tr>
+                <td>AMS3</td>
+                <td>Amsterdam, Netherlands</td>
+                <td><a href="#">Test speed</a></td>
+              </tr>
+              <tr>
+                <td>BLR1</td>
+                <td>Bangalore, India</td>
+                <td><a href="#">Test speed</a></td>
+              </tr>
+              <tr>
+                <td>FRA1</td>
+                <td>Frankfurt, German</td>
+                <td><a href="#">Test speed</a></td>
+              </tr>
+              <tr>
+                <td>LON1</td>
+                <td>London, UK</td>
+                <td><a href="#">Test speed</a></td>
+              </tr>
+              <tr>
+                <td>NYC1</td>
+                <td>New York, USA</td>
+                <td><a href="#">Test speed</a></td>
+              </tr>
+            </table>
+          </div>
+
         </div>
 
       </div>
@@ -192,11 +361,16 @@
       <div class="container">
        
         <div class="row qw-margin-20 debug">
-          <div class="col-xs-12">lorem</div>
+          <div class="col-xs-12 text-center">
+            <h2>Development teams love DigitalOcean</h2>
+          </div>
         </div>
 
         <div class="row debug">
-          <div class="col-xs-10 col-xs-offset-1 debug">blocco img</div>
+          <div class="col-xs-10 col-xs-offset-1 debug">
+            <img src="" alt="">
+            blocco img
+          </div>
         </div>
 
       </div>
@@ -207,8 +381,8 @@
     <section id="section-start">
       <div class="container">
         <div class="row text-center">
-          <div class="col-xs-12 debug">lorem</div>
-          <div class="col-xs-12 debug"><button>lorem</button></div>
+          <div class="col-xs-12 debug"><h1>Get Started now.</h1></div>
+          <div class="col-xs-12 debug"><button>Create your account</button></div>
         </div>
       </div>
     </section>
@@ -223,23 +397,84 @@
       <div class="row">
 
         <!-- credits -->
-        <div class="col-xs-12 col-lg-4 debug">lorem</div>
+        <div class="col-xs-12 col-lg-4 debug">
+          <img class="img-responsive" src="img/logo-small.svg" alt="logo">
+          <p>2018 DigitalOcean, LLC. All rights reserved.</p>
+          <p>Proudly made in NY</p>
+          <ul class="list-unstyled list-inline">
+            <li>x</li>
+            <li>x</li>
+            <li>x</li>
+            <li>x</li>
+            <li>x</li>
+          </ul>
+        </div>
         <!-- /credits -->
 
         <!-- company -->
-        <div class="col-xs-12 col-md-6 col-lg-2 debug">lorem</div>
+        <div class="col-xs-12 col-md-6 col-lg-2 debug">
+          <ul class="list-unstyled">
+            <li>Company</li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Leadership</a></li>
+            <li><a href="#">Link</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Partner Network</a></li>
+            <li><a href="#">Referral Program</a></li>
+            <li><a href="#">Events</a></li>
+            <li><a href="#">Press</a></li>
+            <li><a href="#">Legal & Security</a></li>
+          </ul>
+      </div>
         <!-- /company -->
 
         <!-- products -->
-        <div class="col-xs-12 col-md-6 col-lg-2 debug">lorem</div>
+        <div class="col-xs-12 col-md-6 col-lg-2 debug">
+          <ul class="list-unstyled">
+            <li>Products</li>
+            <li><a href="#">Droplets</a></li>
+            <li><a href="#">Spaces</a></li>
+            <li><a href="#">Kubernetes</a></li>
+            <li><a href="#">Load Balancers</a></li>
+            <li><a href="#">Block Storage</a></li>
+            <li><a href="#">Tools & Integrations</a></li>
+            <li><a href="#">One-Click Apps</a></li>
+            <li><a href="#">API</a></li>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">Documentation</a></li>
+            <li><a href="#">Release Notes</a></li>
+          </ul>
+        </div>
         <!-- /products -->
 
         <!-- community -->
-        <div class="col-xs-12 col-md-6 col-lg-2 debug">lorem</div>
+        <div class="col-xs-12 col-md-6 col-lg-2 debug">
+          <ul class="list-unstyled">
+            <li>Community</li>
+            <li><a href="#">Tutorials</a></li>
+            <li><a href="#">Meetups</a></li>
+            <li><a href="#">Q&A</a></li>
+            <li><a href="#">Write for Donations</a></li>
+            <li><a href="#">Droplets for Demos</a></li>
+            <li><a href="#">Hatch</a></li>
+            <li><a href="#">Shop Swag</a></li>
+            <li><a href="#">Research Program</a></li>
+            <li><a href="#">Currents Research</a></li>
+            <li><a href="#">Open Source</a></li>
+          </ul>
+        </div>
         <!-- /community -->
 
         <!-- support -->
-        <div class="col-xs-12 col-md-6 col-lg-2 debug">lorem</div>
+        <div class="col-xs-12 col-md-6 col-lg-2 debug">
+          <ul class="list-unstyled">
+            <li>Support</li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Network Status</a></li>
+          </ul>
+        </div>
         <!-- /support -->
 
       </div>
