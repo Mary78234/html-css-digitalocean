@@ -1,0 +1,72 @@
+/* debug classes */
+.debug{
+  background-color: rgba(25, 161, 95, 0.2);
+  min-height: 60px;
+  border: 1px solid green;
+}
+
+.qw-navbar{
+  background-color: #FFFFFF;
+  height: 65px;
+}
+
+.qw-jumbotron{
+  background-color: #004AFF;
+  min-height: 400px;
+}
+
+#section-customer{
+  background-color: #F3F5F9;
+  min-height: 200px;
+}
+
+#section-deploy{
+  background-color: salmon;
+  min-height: 400px;
+}
+
+#section-designed{
+  background-color: #F3F5F9;
+  min-height: 400px;
+}
+
+#section-features{
+  background-color: salmon;
+  min-height: 400px;
+}
+
+#section-service{
+  background-color: #004AFF;
+  min-height: 200px;
+}
+
+#section-development{
+  background-color: #F3F5F9;
+  min-height: 400px;
+}
+
+#section-start{
+  background-color: #004AFF;
+  min-height: 200px;
+}
+
+footer{
+  background-color: #031C4E;
+  min-height: 400px;
+  color: white;
+}
+
+.help{
+  position: fixed;
+  bottom: 20px;
+  right: 10px;
+  width: 60px;
+  height: 60px;
+  background-color: thistle;
+}
+
+/* margin & padding */
+
+.qw-margin-20{
+  margin: 0 20px;
+}
