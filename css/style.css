@@ -1,18 +1,23 @@
 /* debug classes */
 .debug{
   background-color: rgba(25, 161, 95, 0.2);
-  min-height: 60px;
+  min-height: 20px;
   border: 1px solid green;
 }
 
-.qw-navbar{
+header .qw-navbar{
   background-color: #FFFFFF;
   height: 65px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 999;
 }
 
 .qw-jumbotron{
   background-color: #004AFF;
   min-height: 400px;
+  margin-top: 65px;
 }
 
 #section-customer{
@@ -64,9 +69,97 @@ footer{
   height: 60px;
   background-color: thistle;
 }
+/* vertical align */
+.qw-box-vertical-align{
+  position: relative;
+}
+.qw-vertical-align{
+  position: absolute;
+  top: 50%;
+  transform: translateY(50%);
+}
 
 /* margin & padding */
 
 .qw-margin-20{
-  margin: 0 20px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.qw-margin-60{
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+.qw-margin-35{
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+
+.qw-padding-20{
+  padding-top: 20px;
+}
+
+
+/* header */
+.qw-navbar .qw-img-logo{
+  height: 30px;
+}
+.qw-navbar .qw-menu-hamburger{
+  font-size: 20px;
+  color: #3B8AFF;
+}
+
+.qw-navbar ul li a{
+  color: #182E5B;
+  text-decoration: none;
+}
+
+.qw-navbar .btn.qw-btn-navbar{
+  border-color: #3B8AFF;
+  color: #3B8AFF;
+  color: #3B8AFF;
+  background-color: none;
+}
+
+.qw-jumbotron .qw-box-jumbotron h1{
+  font-size: 270%;
+  color: white;
+}
+.qw-jumbotron .qw-box-jumbotron p{
+  color: #BBCDFF;
+}
+
+.qw-jumbotron .qw-box-sign-in{
+  padding: 20px 10px;
+  background-color: white;
+  border-radius: 5px;
+}
+.qw-jumbotron .qw-box-sign-in input, .qw-jumbotron .qw-box-sign-in button{
+  width: 100%;
+  margin-bottom: 10px;
+}
+.qw-jumbotron .qw-box-sign-in input{
+  line-height: 35px;
+  border: 1px solid #F2F2F2;
+  border-radius: 5px;
+}
+
+.qw-jumbotron .qw-box-sign-in .btn.qw-btn-register{
+  background-color: #579BFF;
+  color: white;
+  border: none
+}
+
+.qw-jumbotron .qw-box-sign-in .btn.qw-btn-sign-up-google{
+  border: none;
+  box-shadow: 1px 1px 1px 1px #EAEAEA;
+  color: #626262;
+}
+
+/* main */
+/* section customers */
+#section-customer img{
+  width: 100%;
+  margin: auto;
+  vertical-align: middle;
 }
