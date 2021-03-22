@@ -1,3 +1,10 @@
+body{
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  color: #182E5B;
+}
+
+
 /* debug classes */
 .debug{
   background-color: rgba(25, 161, 95, 0.2);
@@ -7,7 +14,7 @@
 
 header .qw-navbar{
   background-color: #FFFFFF;
-  height: 65px;
+  height: 60px;
   width: 100%;
   position: fixed;
   top: 0;
@@ -15,19 +22,17 @@ header .qw-navbar{
 }
 
 .qw-jumbotron{
+  width: 100%;
   background-color: #004AFF;
+  background-image: url('../img/bg-banner-home.jpg');
+  background-size: cover;
+  background-position: center;
   min-height: 400px;
-  margin-top: 65px;
+  margin-top: 60px;
 }
 
 #section-customer{
   background-color: #F3F5F9;
-  min-height: 200px;
-}
-
-#section-deploy{
-  background-color: salmon;
-  min-height: 400px;
 }
 
 #section-designed{
@@ -61,22 +66,28 @@ footer{
   color: white;
 }
 
-.help{
+/* .help{
   position: fixed;
   bottom: 20px;
   right: 10px;
   width: 60px;
   height: 60px;
   background-color: thistle;
-}
+} */
 /* vertical align */
-.qw-box-vertical-align{
+
+.qw-box-vertical-align-customers{
   position: relative;
+  border: 1px solid black;
 }
-.qw-vertical-align{
-  position: absolute;
+.qw-vertical-align-customers{
+  position:absolute;
   top: 50%;
-  transform: translateY(50%);
+  right: 0;
+  transform: translateY(-50%);
+  width: 100%;
+  margin: auto;
+  border: 1px solid red;
 }
 
 /* margin & padding */
@@ -90,19 +101,44 @@ footer{
   margin-top: 60px;
   margin-bottom: 60px;
 }
+.qw-margin-50{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
 .qw-margin-35{
   margin-top: 35px;
   margin-bottom: 35px;
+}
+.qw-margin-top-0{
+  margin-top: 0;
 }
 
 .qw-padding-20{
   padding-top: 20px;
 }
+.qw-padding-15{
+  padding-top: 15px;
+}
 
+/* font size classes */
+.qw-p-medium{
+  font-size: 21px;
+}
+.qw-p-small{
+  font-size: 12px;
+}
+
+/* text color */
+.qw-color-blue{
+  color: #006AFF;
+}
+.qw-color-gray{
+  color: #727E98;
+}
 
 /* header */
 .qw-navbar .qw-img-logo{
-  height: 30px;
+  height: 45px;
 }
 .qw-navbar .qw-menu-hamburger{
   font-size: 20px;
@@ -122,7 +158,7 @@ footer{
 }
 
 .qw-jumbotron .qw-box-jumbotron h1{
-  font-size: 270%;
+  font-size: 40px;
   color: white;
 }
 .qw-jumbotron .qw-box-jumbotron p{
@@ -134,15 +170,18 @@ footer{
   background-color: white;
   border-radius: 5px;
 }
+
 .qw-jumbotron .qw-box-sign-in input, .qw-jumbotron .qw-box-sign-in button{
   width: 100%;
   margin-bottom: 10px;
 }
 .qw-jumbotron .qw-box-sign-in input{
-  line-height: 35px;
+  line-height: 40px;
   border: 1px solid #F2F2F2;
   border-radius: 5px;
-}
+  padding-left: 5px;
+  font-size: 16px;
+} 
 
 .qw-jumbotron .qw-box-sign-in .btn.qw-btn-register{
   background-color: #579BFF;
@@ -153,13 +192,18 @@ footer{
 .qw-jumbotron .qw-box-sign-in .btn.qw-btn-sign-up-google{
   border: none;
   box-shadow: 1px 1px 1px 1px #EAEAEA;
-  color: #626262;
+  color: #666666;
+  font-weight: 500;
+}
+.qw-jumbotron .qw-box-sign-in .btn.qw-btn-sign-up-google img{
+  height: 20px;
 }
 
 /* main */
 /* section customers */
 #section-customer img{
   width: 100%;
-  margin: auto;
+  margin: auto 0;
+  line-height: 100%;
   vertical-align: middle;
 }
