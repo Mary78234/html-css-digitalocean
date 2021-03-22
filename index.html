@@ -84,8 +84,8 @@
           <!-- jumbotron box -->
           <div class="col-xs-12 col-md-7 debug">
             <div class="qw-box-jumbotron">
-              <h1>The simplest cloud platform for developers & teams</h1>
-              <p class="qw-p-medium">Deploy, manage, and scale cloud applications faster and more efficiently on DigitalOcean. We make managing infrastracture easy for teams and businesses, whether you're running one virtual machine or ten thousand.</p>
+              <h1 class="qw-color-white">The simplest cloud platform for developers & teams</h1>
+              <p class="qw-p-big">Deploy, manage, and scale cloud applications faster and more efficiently on DigitalOcean. We make managing infrastracture easy for teams and businesses, whether you're running one virtual machine or ten thousand.</p>
             </div>
           </div>
           <!-- /jumbotron box -->
@@ -103,8 +103,8 @@
                   <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
                 </div>
                 
-                <button class="btn qw-btn-register">Create your account</button>
-                <button class="btn btn-default qw-btn-sign-up-google">
+                <button class="btn qw-btn-register qw-color-white">Create your account</button>
+                <button class="btn btn-default qw-btn-sign-up-google qw-color-gray">
                   <img class="pull-left" src="img/google-icon.png" alt="">
                   Sign up with google
                 </button>
@@ -134,11 +134,13 @@
       <div class="container">
         
         <div class="row qw-margin-50 debug">
-          <div class="col-xs-12 text-center qw-color-gray text-uppercase">Innovative businesses trust digitalocean</div>
+          <div class="col-xs-12">
+            <h5 class="text-center qw-color-gray text-uppercase">Innovative businesses trust digitalocean</h5>
+          </div>
         </div>
 
         <!-- logo customers -->
-        <div class="row qw-margin-35 qw-margin-20 debug">
+        <div class="row qw-margin-20 debug">
 
           <ul class="list-unstyledd list-inline text-center">
             <li class="col-xs-6 col-md-2 debug"><img class="" src="img/docker.svg" alt="docker"></li>
@@ -154,7 +156,9 @@
         <!-- /logo customers -->
 
         <div class="row qw-margin-35 debug">
-          <div class="col-xs-12 text-center qw-p-small"><a class="qw-color-blue" href="#">View customers stories > </a></div>
+          <div class="col-xs-12 text-center">
+            <a class="qw-color-blue" href="#">View customers stories > </a>
+          </div>
         </div>
 
       </div>
@@ -168,14 +172,14 @@
         <div class="row qw-margin-60 debug">
           <div class="col-xs-12 text-center">
             <h2>Deploy and scale seamlessly</h2>
-            <p class="qw-color-gray qw-p-medium">Our optimized configuration process saves your team time when running and scaling distributed applications, AI & machine learning workloads, hosted services, client websites, or CI/CD environments.</p>
+            <p class="qw-color-gray qw-p-big">Our optimized configuration process saves your team time when running and scaling distributed applications, AI & machine learning workloads, hosted services, client websites, or CI/CD environments.</p>
           </div>
         </div>
 
         <!-- row 5 elements of section deploy -->
         <div class="row qw-margin-60 debug">
           <div class="col-xs-12 col-md-4 debug">
-            <ul class="list-unstyled">
+            <ul class="list-unstyled qw-p-big qw-color-gray">
               <li>Deploy</li>
               <li>Manage</li>
               <li>Secure</li>
@@ -184,29 +188,39 @@
             </ul>
           </div>
 
-          <div class="col-xs-12 col-md-4 debug">
-            <img class="img-responsive" src="img/cluster-deploy.svg" alt="cluster deploy">
-            <h4>Cluster deployments</h4>
-            <p>Provision multiple Droplets (virtual machines) in seconds with our control panel, CLI, or directly against our API.</p>
-          </div>
+          <!-- row 4 element -->
+          <div class="col-xs-12 col-md-8 debug">
+            <div class="row">
 
-          <div class="col-xs-12 col-md-4 debug">
-            <img class="img-responsive" src="img/optimized-compute.svg" alt="optimezed compute">
-            <h4>Optimized compute types</h4>
-            <p>Get the compute resources you need with Standard or Optimized Droplets.</p>
-          </div>
+              <div class="col-xs-12 qw-margin-bottom-30 col-md-6 debug">
+                <img class="img-responsive" src="img/cluster-deploy.svg" alt="cluster deploy">
+                <h4>Cluster deployments</h4>
+                <p class="qw-color-gray">Provision multiple Droplets (virtual machines) in seconds with our control panel, CLI, or directly against our API.</p>
+              </div>
+    
+              <div class="col-xs-12 col-md-6 qw-margin-bottom-30 debug">
+                <img class="img-responsive" src="img/optimized-compute.svg" alt="optimezed compute">
+                <h4>Optimized compute types</h4>
+                <p class="qw-color-gray">Get the compute resources you need with Standard or Optimized Droplets.</p>
+              </div>
+              
+              <div class="clearfix"></div>
+    
+              <div class="col-xs-12 col-md-6 qw-margin-bottom-30 debug">
+                <img class="img-responsive" src="img/one-click.svg" alt="one click">
+                <h4>One-click apps</h4>
+                <p class="qw-color-gray">Skip the install and configuratin process with pre-built open source images supporting Rails, Cassandra, Docker, and more.</p>
+              </div>
+    
+              <div class="col-xs-12 col-md-6 qw-margin-bottom-30 debug">
+                <img class="img-responsive" src="img/global.svg" alt="global">
+                <h4>Global availability</h4>
+                <p class="qw-color-gray">Deploy to any of our data center regions around the world.</p>
+              </div>
 
-          <div class="col-xs-12 col-md-4 debug">
-            <img class="img-responsive" src="img/one-click.svg" alt="one click">
-            <h4>One-click apps</h4>
-            <p>Skip the install and configuratin process with pre-built open source images supporting Rails, Cassandra, Docker, and more.</p>
+            </div>
           </div>
-
-          <div class="col-xs-12 col-md-4 debug">
-            <img class="img-responsive" src="img/global.svg" alt="global">
-            <h4>Global availability</h4>
-            <p>Deploy to any of our data center regions around the world.</p>
-          </div>
+          <!-- /row 4 element -->
 
         </div>
         <!-- /row 5 elements of section deploy -->
@@ -219,18 +233,47 @@
     <section id="section-designed">
       <div class="container">
 
-        <div class="row qw-margin-60 qw-margin-20 debug">
-          <div class="col-xs-12 text-center">
+        <!-- titolo blocco -->
+        <div class="row qw-margin-60 qw-margin-20  text-center debug">
+          <div class="col-xs-12">
             <h2>Designed for developers</h2>
-            <p>Buld more and spend less time managing your infrastructure with our easy-to-use control panel and API.</p>
+            <p class="qw-p-big qw-color-gray">Buld more and spend less time managing your infrastructure with our easy-to-use control panel and API.</p>
           </div>
         </div>
+        <!-- /titolo blocco -->
 
+        <!-- blocco sotto titolo -->
         <div class="row qw-margin-60 debug">
           <div class="col-xs-10 col-xs-offset-1 debug">
-            <img src="#" alt="">image
+
+            <!-- blocco immagine -->
+            <div class="row text-center">
+
+              <div class="col-xs-12 debug">
+                <button class="qw-btn-chevron hidden-xs"><i class="fas fa-chevron-left"></i></button>
+                
+                <img class="" src="img/slide.jpg" alt="">
+                <button class="qw-btn-chevron hidden-xs"><i class="fas fa-chevron-right"></i></button>
+              </div>
+          
+              <!-- testo sotto immagine -->
+              <div class="col-xs-12 debug">
+                <p>Create compute servers in 55 seconds or less.</p>
+                <p class="qw-color-blue">
+                  <span><i class="fas fa-circle"></i></span>
+                  <span><i class="far fa-circle"></i></span>
+                  <span><i class="far fa-circle"></i></span>
+                  <span><i class="far fa-circle"></i></span>
+                </p>
+              </div>
+              <!-- /testo sotto immagine -->
+
+            </div>
+            <!-- /blocco immagine -->
+
           </div>
         </div>
+        <!-- /blocco sotto titolo -->
 
       </div>
     </section>
@@ -249,25 +292,25 @@
         <!-- row 3 box features -->
         <div class="row qw-margin-60 debug">
 
-          <div class="col-xs-12 col-md-4 debug">
+          <div class="col-xs-12 col-md-4 qw-margin-bottom-30 debug">
             <img  class="img-responsive" src="img/pred-pricing.svg" alt="sheet">
             <h4>Predictable pricing</h4>
-            <p>Leave complex pricing structures behind. Always know what you'll pay per month with a flat, industry-leading pricing structure.</p>
-            <a href="#">Pricing</a>
+            <p class="qw-color-gray">Leave complex pricing structures behind. Always know what you'll pay per month with a flat, industry-leading pricing structure.</p>
+            <a class="qw-color-blue" href="#">Pricing ></a>
           </div>
 
-          <div class="col-xs-12 col-md-4 debug">
+          <div class="col-xs-12 col-md-4 qw-margin-bottom-30 debug">
             <img  class="img-responsive" src="img/world-class.svg" alt="service">
             <h4>World-class service</h4>
-            <p>Free round-the-clock technical support for all customers. You'll feel the love.</p>
-            <a href="#">Support</a>
+            <p class="qw-color-gray">Free round-the-clock technical support for all customers. You'll feel the love.</p>
+            <a class="qw-color-blue" href="#">Support ></a>
           </div>
 
-          <div class="col-xs-12 col-md-4 debug">
+          <div class="col-xs-12 col-md-4 qw-margin-bottom-30 debug">
             <img  class="img-responsive" src="img/reliable-platform.svg" alt="reliable">
             <h4>Reliable platform</h4>
-            <p>More than 100,000 developer teams worldwide trust DigitalOcean to support their business with a 99.99% uptime SLA for all services.</p>
-            <a href="#">Security</a>
+            <p class="qw-color-gray">More than 100,000 developer teams worldwide trust DigitalOcean to support their business with a 99.99% uptime SLA for all services.</p>
+            <a class="qw-color-blue" href="#">Security ></a>
           </div>
 
         </div>
@@ -283,7 +326,7 @@
         <div class="row qw-margin-60 debug">
 
           <div class="col-xs-12 text-center">
-            <h2>Service your customers around the world from 12 regins.</h2>
+            <h2 class="qw-color-white">Service your customers around the world from 12 regins.</h2>
           </div>
 
           <!-- table 1 -->
@@ -375,12 +418,43 @@
           </div>
         </div>
 
+        <!-- blocco sotto titolo -->
         <div class="row qw-margin-60 debug">
           <div class="col-xs-10 col-xs-offset-1 debug">
-            <img src="" alt="">
-            blocco img
+
+            <!-- blocco immagine -->
+            <div class="row text-center">
+
+              <div class="col-xs-12 debug">
+                <button class="qw-btn-chevron hidden-xs"><i class="fas fa-chevron-left"></i></button>
+                
+                <div class="qw-box">
+                  <img class="img-responsive" src="img/rockerbox.png" alt="rockerbox">
+                  <p class="qw-p-big qw-color-gray">"We have been able to make scaling the technical inftrastructure of our business cost effective and efficient."</p>
+                  <p>Rock O'Toole<br>Co-founder and CTO</p>
+                  <a class="qw-color-blue" href="#">Read story ></a>
+                </div>
+                
+                <button class="qw-btn-chevron hidden-xs"><i class="fas fa-chevron-right"></i></button>
+              </div>
+          
+              <!-- testo sotto immagine -->
+              <div class="col-xs-12 debug">
+                <p>Create compute servers in 55 seconds or less.</p>
+                <p class="qw-color-blue">
+                  <span><i class="fas fa-circle"></i></span>
+                  <span><i class="far fa-circle"></i></span>
+                  <span><i class="far fa-circle"></i></span>
+                </p>
+              </div>
+              <!-- /testo sotto immagine -->
+
+            </div>
+            <!-- /blocco immagine -->
+
           </div>
         </div>
+        <!-- /blocco sotto titolo -->
 
       </div>
     </section>
@@ -390,8 +464,8 @@
     <section id="section-start">
       <div class="container">
         <div class="row qw-margin-60 text-center">
-          <div class="col-xs-12 debug"><h1>Get Started now.</h1></div>
-          <div class="col-xs-12 debug"><button>Create your account</button></div>
+          <div class="col-xs-12 debug"><h2 class="qw-color-white">Get Started now.</h2></div>
+          <div class="col-xs-12 qw-color-blue debug"><button class="btn btn-lg">Create your account</button></div>
         </div>
       </div>
     </section>
@@ -403,14 +477,14 @@
   <!-- footer -->
   <footer>
     <div class="container">
-      <div class="row qw-margin-60">
+      <div class="row qw-footer qw-color-gray qw-margin-60">
 
         <!-- credits -->
         <div class="col-xs-12 col-lg-4 debug">
           <img class="img-responsive" src="img/logo-small.svg" alt="logo">
-          <p><i class="far fa-copyright"></i>2018 DigitalOcean, LLC. All rights reserved.</p>
-          <p>Proudly made in NY</p>
-          <ul class="list-unstyled list-inline">
+          <p class="qw-padding-15"><i class="far fa-copyright"></i>2018 DigitalOcean, LLC. All rights reserved.
+            <br><span class="qw-color-dark-gray">Proudly made in NY</span></p>
+          <ul class="list-unstyled list-inline qw-p-big">
             <li><a href="#"><i class="fab fa-twitter"></i></a></li>
             <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
             <li><a href="#"><i class="fab fa-instagram"></i></a></li>
@@ -421,9 +495,9 @@
         <!-- /credits -->
 
         <!-- company -->
-        <div class="col-xs-12 col-md-6 col-lg-2 debug">
-          <ul class="list-unstyled">
-            <li>Company</li>
+        <div class="col-xs-12 col-md-6 col-lg-2 qw-margin-bottom-15 debug">
+          <ul class="list-unstyled qw-ul-padding-10">
+            <li class="qw-color-white qw-p-medium">Company</li>
             <li><a href="#">About</a></li>
             <li><a href="#">Leadership</a></li>
             <li><a href="#">Link</a></li>
@@ -439,9 +513,9 @@
         <!-- /company -->
 
         <!-- products -->
-        <div class="col-xs-12 col-md-6 col-lg-2 debug">
-          <ul class="list-unstyled">
-            <li>Products</li>
+        <div class="col-xs-12 col-md-6 col-lg-2 qw-margin-bottom-15 debug">
+          <ul class="list-unstyled qw-ul-padding-10">
+            <li class="qw-color-white qw-p-medium">Products</li>
             <li><a href="#">Droplets</a></li>
             <li><a href="#">Spaces</a></li>
             <li><a href="#">Kubernetes</a></li>
@@ -458,9 +532,9 @@
         <!-- /products -->
 
         <!-- community -->
-        <div class="col-xs-12 col-md-6 col-lg-2 debug">
-          <ul class="list-unstyled">
-            <li>Community</li>
+        <div class="col-xs-12 col-md-6 col-lg-2 qw-margin-bottom-15 debug">
+          <ul class="list-unstyled qw-ul-padding-10">
+            <li class="qw-color-white qw-p-medium">Community</li>
             <li><a href="#">Tutorials</a></li>
             <li><a href="#">Meetups</a></li>
             <li><a href="#">Q&A</a></li>
@@ -476,9 +550,9 @@
         <!-- /community -->
 
         <!-- support -->
-        <div class="col-xs-12 col-md-6 col-lg-2 debug">
-          <ul class="list-unstyled">
-            <li>Support</li>
+        <div class="col-xs-12 col-md-6 col-lg-2 qw-margin-bottom-15 debug">
+          <ul class="list-unstyled qw-ul-padding-10">
+            <li class="qw-color-white qw-p-medium">Support</li>
             <li><a href="#">Contact</a></li>
             <li><a href="#">FAQ</a></li>
             <li><a href="#">Network Status</a></li>
