@@ -29,9 +29,6 @@ body{
   margin-top: 35px;
   margin-bottom: 35px;
 }
-.qw-margin-top-0{
-  margin-top: 0;
-}
 .qw-margin-bottom-30{
   margin-bottom: 30px;
 }
@@ -98,20 +95,6 @@ footer{
   background-color: thistle;
 } */
 
-.qw-btn-chevron{
-  border: none;
-  text-decoration: none;
-  font-size: 30px;
-}
-.qw-btn-chevron:hover{
-  color: gray;
-}
-
-.qw-full-circle, .qw-color-blue .far.fa-circle:hover{
-  background-color: #006AFF;
-  border-radius: 50%;
-}
-
 /* header */
 header .qw-navbar{
   height: 60px;
@@ -146,7 +129,6 @@ header .qw-navbar{
 .qw-navbar .btn.qw-btn-navbar{
   border-color: #3B8AFF;
   color: #3B8AFF;
-  color: #3B8AFF;
   background-color: none;
 }
 
@@ -154,7 +136,6 @@ header .qw-navbar{
   font-size: 37px;
 }
 .qw-jumbotron .qw-box-jumbotron p{
-  font-size: 22px;
   color: #BBCDFF;
 }
 
@@ -163,15 +144,18 @@ header .qw-navbar{
   border-radius: 5px;
 }
 
+.qw-jumbotron .qw-box-sign-in h2.qw-color-blue{
+  margin-top: 0;
+}
+
 .qw-jumbotron .qw-box-sign-in input, .qw-jumbotron .qw-box-sign-in button{
   width: 100%;
   margin-bottom: 10px;
 }
 .qw-jumbotron .qw-box-sign-in input{
-  line-height: 40px;
   border: 1px solid #F2F2F2;
   border-radius: 5px;
-  padding-left: 5px;
+  padding: 22px 5px;
   font-size: 16px;
 } 
 
@@ -193,10 +177,7 @@ header .qw-navbar{
 /* section customers */
 #section-customer img{
   width: 100%;
-  margin: auto;
-}
-#section-customer ul li{
-  line-height: 150px;
+  display: inline-block;
 }
 #section-customer .row:last-of-type{
   margin-top: 0;
@@ -204,40 +185,73 @@ header .qw-navbar{
 
 /* section deploy */
 #section-deploy ul{
-  border-left: 1px solid gray;
+  border-left: 2px solid #C6C6C6;
   padding-left: 10px;
-  margin-left: 65px;
 }
 
 #section-deploy ul li{
   line-height: 49px;
 }
-/* section designed */
-#section-designed img{
-  width: 60%;
-}
 
-/* #section-development */
-#section-development .qw-box{
-  width: 85%;
+/* section designed & section development common element*/ 
+.qw-btn-chevron{
+  border: none;
+  text-decoration: none;
+  font-size: 30px;
+}
+.qw-btn-chevron:hover{
+  color: gray;
+}
+span .far.fa-circle, span .fas.fa-circle{
+  font-size: 12px;
+}
+.qw-full-circle, .qw-color-blue .far.fa-circle:hover{
+  background-color: #006AFF;
+  border-radius: 50%;
+}
+.qw-box{
+  width: 80%;
   min-width: 300px;
   max-width: 600px;
   margin: auto;
   display: inline-block;
   vertical-align: middle;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin-bottom: 30px;
 }
+
+/* section-development */
 #section-development .qw-box img{
   margin: auto;
 }
-#section-development .qw-box{
-  padding-top: 40px;
-  padding-bottom: 40px;
+
+/* section-service */
+#section-service .row.qw-regions{
+  border-bottom: 1px solid white;
+  margin-right: 2px;
+  margin-left: 2px;
+  font-size: 13px;
+  padding: 6px 0;
+}
+#section-service .row.qw-regions:last-child{
+  border: none;
+}
+#section-service .row.qw-regions>.col-xs-2{
+  color: white;
+}
+#section-service .row.qw-regions>.col-xs-7{
+  color: #AEC0E7;
+}
+#section-service .row.qw-regions>.col-xs-3{
+  color: #00CDD0;
 }
 
 /* footer */
 .qw-footer ul.qw-ul-padding-10 li{
   padding: 5px 0;
 }
+
 /* media query width 1200px */
 @media (min-width: 1200px){
   .qw-jumbotron .qw-box-jumbotron{
@@ -245,6 +259,13 @@ header .qw-navbar{
   }
   .qw-jumbotron .qw-box-jumbotron h1{
     font-size: 60px;
+  }
+  /* #section-customer ul li{
+    line-height: 110px;
+  } */
+  #section-deploy>.container>.row:nth-child(2){
+    margin-left: 50px;
+    margin-right: 50px;
   }
   #section-development .qw-box{
     padding-top: 70px;
