@@ -5,11 +5,11 @@ body{
 }
 
 /* debug classes */
-.debug{
+/* .debug{
   background-color: rgba(25, 161, 95, 0.2);
   min-height: 20px;
   border: 1px solid green;
-}
+} */
 
 /* margin & padding */
 
@@ -160,15 +160,16 @@ header .qw-navbar{
   border: none;
   box-shadow: 1px 1px 1px 1px #EAEAEA;
   font-weight: 500;
-}
-.qw-jumbotron .qw-box-sign-in .btn.qw-btn-sign-up-google img{
-  height: 20px;
+  background-image: url('../img/google-icon.png');
+  background-size: 20px;
+  background-repeat: no-repeat;
+  background-position: 10px 7px;
 }
 
 /* main */
 /* section customers */
 #section-customer ul li{
-  width: calc((100% / 2 ) - 30px);
+  width: calc((100% / 2 ) - 10px);
 }
 #section-customer img{
   width: 100%;
@@ -253,20 +254,21 @@ span .far.fa-circle, span .fas.fa-circle{
   bottom: 0;
   left: 0;
   width: 100%;
-  min-height: 60px;
-  background-color: thistle;
   z-index: 999;
 }
+.qw-help .qw-box-help{
+  width: 360px;
+}
 .qw-help .qw-icon{
+  position: relative;
+  height: 60px;
+  width: 60px;
+  border-radius: 10px;
   background-color: #006AFF;
   background-image: url('../img/shark.png');
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  height: 60px;
-  width: 60px;
-  border-radius: 10px;
-  position: relative;
 }
 .qw-help .qw-icon .qw-number{
   position: absolute;
@@ -274,16 +276,36 @@ span .far.fa-circle, span .fas.fa-circle{
   right: -10px;
   height: 30px;
   width: 30px;
+  line-height: 15px;
+  padding: 5px;
   background-color: red;
   color: white;
-  text-align: center;
   border: 3px solid white;
   border-radius: 50%;
 }
 
+.qw-help .qw-baloon{
+  position: relative;
+  background-color: white;
+  width: 350px;
+  border-radius: 5px;
+  padding: 10px 5px;
+}
+
+.qw-help .qw-baloon .qw-triangle{
+  position: absolute;
+  right: -8px;
+  bottom: 10px;
+	width: 0;
+	height: 0;
+	border-top: 8px solid transparent;
+	border-left: 8px solid white;
+	border-bottom: 8px solid transparent;
+}
+
 @media (min-width: 768px){
   #section-customer ul li{
-    width: calc((100% / 6 ) - 20px);
+    width: calc((100% / 6 ) - 10px);
   }
 }
 
@@ -303,4 +325,17 @@ span .far.fa-circle, span .fas.fa-circle{
     padding-top: 70px;
     padding-bottom: 70px;
   }
+  .qw-help .container-fluid{
+    position: relative;
+  }
+  .qw-help .qw-icon{
+    position: absolute;
+    right: 40px;
+    bottom: 0;
+  }
+  .qw-help .qw-baloon{
+    position: absolute;
+    right: 140px;
+    bottom: 0;
+  } 
 }
