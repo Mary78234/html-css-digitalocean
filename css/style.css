@@ -194,14 +194,19 @@ header .qw-navbar{
   border: none;
   text-decoration: none;
   font-size: 30px;
+  background-color: #F3F5F9;
 }
 .qw-btn-chevron:hover{
   color: gray;
 }
-span .far.fa-circle, span .fas.fa-circle{
+span .far.fa-circle{
   font-size: 12px;
 }
-.qw-full-circle, .qw-color-blue .far.fa-circle:hover{
+span.qw-active .far.fa-circle{
+  background-color: #006AFF;
+  border-radius: 50%;
+}
+.qw-color-blue .far.fa-circle:hover{
   background-color: #006AFF;
   border-radius: 50%;
 }
