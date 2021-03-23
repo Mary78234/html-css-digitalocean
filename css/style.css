@@ -86,14 +86,6 @@ footer{
 .qw-footer li a{
   color: #7B869D;
 }
-/* .help{
-  position: fixed;
-  bottom: 20px;
-  right: 10px;
-  width: 60px;
-  height: 60px;
-  background-color: thistle;
-} */
 
 /* header */
 header .qw-navbar{
@@ -175,6 +167,9 @@ header .qw-navbar{
 
 /* main */
 /* section customers */
+#section-customer ul li{
+  width: calc((100% / 2 ) - 30px);
+}
 #section-customer img{
   width: 100%;
   display: inline-block;
@@ -252,6 +247,46 @@ span .far.fa-circle, span .fas.fa-circle{
   padding: 5px 0;
 }
 
+/* help */
+.qw-help{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  min-height: 60px;
+  background-color: thistle;
+  z-index: 999;
+}
+.qw-help .qw-icon{
+  background-color: #006AFF;
+  background-image: url('../img/shark.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 60px;
+  width: 60px;
+  border-radius: 10px;
+  position: relative;
+}
+.qw-help .qw-icon .qw-number{
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  height: 30px;
+  width: 30px;
+  background-color: red;
+  color: white;
+  text-align: center;
+  border: 3px solid white;
+  border-radius: 50%;
+}
+
+@media (min-width: 768px){
+  #section-customer ul li{
+    width: calc((100% / 6 ) - 20px);
+  }
+}
+
 /* media query width 1200px */
 @media (min-width: 1200px){
   .qw-jumbotron .qw-box-jumbotron{
@@ -260,9 +295,6 @@ span .far.fa-circle, span .fas.fa-circle{
   .qw-jumbotron .qw-box-jumbotron h1{
     font-size: 60px;
   }
-  /* #section-customer ul li{
-    line-height: 110px;
-  } */
   #section-deploy>.container>.row:nth-child(2){
     margin-left: 50px;
     margin-right: 50px;
