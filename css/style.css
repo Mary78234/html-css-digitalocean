@@ -67,12 +67,12 @@ body{
   color: white;
 }
 
-#section-customer, #section-designed, #section-development{
-  background-color: #F3F5F9;
+.qw-bg-white{
+  background-color: white;
 }
 
-#section-features, .qw-navbar,.qw-jumbotron .qw-box-sign-in, #section-development .qw-box{
-  background-color: white;
+#section-customer, #section-designed, #section-development{
+  background-color: #F3F5F9;
 }
 
 #section-service, #section-start{
@@ -82,9 +82,6 @@ body{
 
 footer{
   background-color: #031C4E;
-}
-.qw-footer li a{
-  color: #7B869D;
 }
 
 /* header */
@@ -252,6 +249,9 @@ span.qw-active .far.fa-circle{
 .qw-footer ul.qw-ul-padding-10 li{
   padding: 5px 0;
 }
+.qw-footer li a{
+  color: #7B869D;
+}
 
 /* help */
 .qw-help{
@@ -284,14 +284,12 @@ span.qw-active .far.fa-circle{
   line-height: 15px;
   padding: 5px;
   background-color: red;
-  color: white;
   border: 3px solid white;
   border-radius: 50%;
 }
 
 .qw-help .qw-baloon{
   position: relative;
-  background-color: white;
   width: 350px;
   border-radius: 5px;
   padding: 10px 5px;
@@ -330,6 +328,7 @@ span.qw-active .far.fa-circle{
     padding-top: 70px;
     padding-bottom: 70px;
   }
+  /* help che cambia posizione */
   .qw-help .container-fluid{
     position: relative;
   }
